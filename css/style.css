@@ -9,14 +9,34 @@
 @import url(style8.css);
 @import url(style9.css);
 @import url(style10.css);
-body {
-  font-family: 'Exo2-Regular';
-  font-size: 33.33px; }
+* { box-sizing: border-box; }
 
-.clear {
-  clear: both; }
+body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%; min-width: 300px; }
 
-.center {
-  text-align: center; }
+.clear { clear: both; }
 
-/*# sourceMappingURL=style.css.map */
+.clearfix::after { clear: both; content: ""; display: table; }
+
+.center { text-align: center; }
+
+.clearfix::after { clear: both; content: ""; display: table; }
+
+.container { width: 100%; max-width: 1170px; margin: 0 auto; padding: 0 10px; }
+
+.header_top .info { padding: 12px 0; font-family: 'PT Sans', arial, sans-serif; border-bottom: 1px solid #EDEDED; }
+.header_top .info__contact a { font-size: 12px; color: #909090; padding-left: 20px; display: inline-block; padding-top: 10px; }
+.header_top .info__num span { text-align: right; display: block; font-size: 25px; color: #4E7AC7; padding-right: 60px; }
+.header_top .menu-line { padding: 35px 0 45px; }
+.header_top .menu-line .logo { display: block; padding-left: 35px; color: #424242; font-size: 14px; }
+.header_top .menu-line .logo i { font-size: 25px; display: block; }
+.header_top .menu-line .menu__li { list-style: none; display: inline-block; margin-left: -3px; }
+.header_top .menu-line .menu__link { font-size: 17px; display: block; padding: 0 15px; line-height: 42px; color: #000; transition: 0.4s all ease; }
+.header_top .menu-line .menu__link:hover { background: #0074C4; color: #fff; }
+
+.pod_shapkoy { height: 500px; background: #ccc; position: relative; }
+.pod_shapkoy .box-wrap { position: absolute; left: 0; bottom: 0; }
+.pod_shapkoy .box { width: 33.33%; float: left; padding: 22px 30px; color: #fff; font-size: 14px; }
+.pod_shapkoy .box__title { font-size: 24px; display: block; padding-bottom: 8px; }
+.pod_shapkoy .box-light { background: #42B3E5; }
+.pod_shapkoy .box-semi { background: #0384CE; }
+.pod_shapkoy .box-dark { background: #3156A3; }
