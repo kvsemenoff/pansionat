@@ -34,6 +34,21 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    // ========= меню аккордеон =======
+
+    $('.sub-sidebar').slideUp(0);
+    $('.sidebar__li').click(function(){
+        if (!$(this).hasClass('active')){
+            $('.sidebar__li').removeClass('active');
+            $('.sub-sidebar').slideUp(400)
+            $(this).addClass('active');
+            $('.active > .sub-sidebar').slideDown(400)
+        } else {
+            $(this).removeClass('active');
+            $('.sub-sidebar').slideUp(400)
+        }
+    });
+
  });
 
 

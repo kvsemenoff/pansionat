@@ -21,7 +21,13 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 
 .clearfix::after { clear: both; content: ""; display: table; }
 
-.container { width: 100%; max-width: 1170px; margin: 0 auto; padding: 0 10px; }
+.container { width: 100%; max-width: 1150px; margin: 0 auto; position: relative; height: 100%; padding: 0; }
+
+.row { padding: 0; }
+
+.title { display: block; background: #0074C4; color: #fff; font-size: 17px; font-family: 'PT Sans', arial, sans-serif; padding: 18px 20px; font-weight: 400; margin-bottom: 30px; }
+
+.button-1 { color: #fff; font-size: 14px; text-align: center; border: none; background: #4E7AC7; line-height: 44px; padding: 0 20px; }
 
 .header_top .info { padding: 12px 0; font-family: 'PT Sans', arial, sans-serif; border-bottom: 1px solid #EDEDED; }
 .header_top .info__contact a { font-size: 12px; color: #909090; padding-left: 20px; display: inline-block; padding-top: 10px; }
@@ -40,3 +46,22 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 .pod_shapkoy .box-light { background: #42B3E5; }
 .pod_shapkoy .box-semi { background: #0384CE; }
 .pod_shapkoy .box-dark { background: #3156A3; }
+
+.dom { padding: 15px 0; }
+.dom .row { margin-top: 30px; }
+.dom__info { padding: 0; }
+.dom__sidebar { padding: 0 0 0 30px; }
+.dom .info { background: #E4EBF8; }
+.dom .info__video { height: 330px; overflow: hidden; padding: 0; }
+.dom .info__video iframe { width: 100%; height: auto; min-height: 100%; }
+.dom .info__txt p { font-size: 15px; padding: 20px 20px 10px 10px; }
+.dom .sidebar__li { display: block; width: 100%; cursor: pointer; font-size: 15px; padding: 10px 15px 10px 0; border-bottom: 1px solid #E0E0E0; }
+.dom .sidebar__li:first-child { padding: 0 15px 10px 0; }
+.dom .sidebar .sub-sidebar { padding-left: 10px; }
+.dom .sidebar .sub-sidebar .sub__li { display: block; color: inherit; }
+.dom .condition { margin: 0 -15px; }
+.dom .condition .item__img { width: 230px; height: 172px; overflow: hidden; }
+.dom .condition .item__img-in { width: 100%; height: auto; min-height: 100%; display: block; }
+.dom .condition .item .text__title { font-weight: 700; font-size: 15px; display: block; padding: 0 0 20px 10px; }
+.dom .condition .item .text__in { font-size: 15px; }
+.dom .data__li a { padding: 3px 10px 25px 65px; min-height: 70px; font-size: 15px; color: #000; display: block; }

@@ -28,9 +28,33 @@ body{
 }
 .container{
 	width: 100%;
-	max-width: 1170px;
+	max-width: 1150px;
 	margin: 0 auto;
-	padding: 0 10px;
+	position: relative;
+	height: 100%;
+	padding: 0;
+}
+.row{
+	padding: 0;
+}
+.title{
+	display: block;
+	background: #0074C4;
+	color: #fff;
+	font-size: 17px;
+	font-family: 'PT Sans', arial, sans-serif;
+	padding: 18px 20px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.button-1{
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	border: none;
+	background: #4E7AC7;
+	line-height: 44px;
+	padding: 0 20px;
 }
 .header_top{
 	.info{
@@ -120,7 +144,93 @@ body{
 		}
 	}
 }
-
+.dom{
+	padding: 15px 0;
+	.row{
+		margin-top: 30px;
+	}
+	&__info{
+		padding: 0;
+	}
+	&__sidebar{
+		padding: 0 0 0 30px;
+	}
+	.info{
+		background: #E4EBF8;
+		&__video{
+			height: 330px;
+			overflow: hidden;
+			padding: 0;
+			iframe{
+				width: 100%;
+				height: auto;
+				min-height: 100%;
+			}
+		}
+		&__txt{
+			p{
+				font-size: 15px;
+				padding: 20px 20px 10px 10px;
+			}
+		}
+	}
+	.sidebar{
+		&__li{
+			display: block;
+			width: 100%;
+			cursor: pointer;
+			font-size: 15px;
+			padding: 10px 15px 10px 0;
+			border-bottom: 1px solid #E0E0E0;
+			&:first-child{
+				padding: 0 15px 10px 0;
+			}
+		}
+		.sub-sidebar{
+			padding-left: 10px;
+			.sub__li{
+				display: block;
+				color: inherit;
+			}
+		}
+	}
+	.condition{
+		margin: 0 -15px;
+		.item{
+			&__img{
+				width: 230px;
+				height: 172px;
+				overflow: hidden;
+				&-in{
+					width: 100%;
+					height: auto;
+					min-height: 100%;
+					display: block;
+				}
+			}
+			.text__title{
+				font-weight: 700;
+				font-size: 15px;
+				display: block;
+				padding: 0 0 20px 10px;
+			}
+			.text__in{
+				font-size: 15px;
+			}
+		}
+	}
+	.data{
+		&__li{
+			a{
+				padding: 3px 10px 25px 65px;
+				min-height: 70px;
+				font-size: 15px;
+				color: #000;
+				display: block;
+			}
+		}
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
