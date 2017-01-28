@@ -49,6 +49,25 @@ $(document).ready(function(){
         }
     });
 
+    // ======== слайдер фото =====
+    $('.slider-one').slick({
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+      // autoplay: true,
+      autoplaySpeed: 5000
+    });
+
+    $('.slider-three').slick({
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      adaptiveHeight: true,
+      // autoplay: true,
+      autoplaySpeed: 5000
+    });
+
  });
 
 

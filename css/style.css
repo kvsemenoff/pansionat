@@ -9,7 +9,7 @@
 @import url(style8.css);
 @import url(style9.css);
 @import url(style10.css);
-* { box-sizing: border-box; }
+* { box-sizing: border-box; outline: none; }
 
 body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%; min-width: 300px; }
 
@@ -29,6 +29,10 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 
 .button-1 { color: #fff; font-size: 14px; text-align: center; border: none; background: #4E7AC7; line-height: 44px; padding: 0 20px; }
 
+.slick-arrow { border: none; background: url(../img/slider-arrow.jpg) 0 0 no-repeat; color: transparent; width: 24px; height: 22px; outline: none; z-index: 100; top: -70px; right: 45px; position: absolute; }
+
+.slick-next { background-position: -29px 0; right: 17px; }
+
 .header_top .info { padding: 12px 0; font-family: 'PT Sans', arial, sans-serif; border-bottom: 1px solid #EDEDED; }
 .header_top .info__contact a { font-size: 12px; color: #909090; padding-left: 20px; display: inline-block; padding-top: 10px; }
 .header_top .info__num span { text-align: right; display: block; font-size: 25px; color: #4E7AC7; padding-right: 60px; }
@@ -39,9 +43,9 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 .header_top .menu-line .menu__link { font-size: 17px; display: block; padding: 0 15px; line-height: 42px; color: #000; transition: 0.4s all ease; }
 .header_top .menu-line .menu__link:hover { background: #0074C4; color: #fff; }
 
-.pod_shapkoy { height: 500px; background: #ccc; position: relative; }
+.pod_shapkoy { height: 500px; background: url(../img/top-bg.jpg) top center no-repeat; position: relative; }
 .pod_shapkoy .box-wrap { position: absolute; left: 0; bottom: 0; }
-.pod_shapkoy .box { width: 33.33%; float: left; padding: 22px 30px; color: #fff; font-size: 14px; }
+.pod_shapkoy .box { display: block; width: 33.33%; float: left; padding: 22px 30px; color: #fff; font-size: 14px; }
 .pod_shapkoy .box__title { font-size: 24px; display: block; padding-bottom: 8px; }
 .pod_shapkoy .box-light { background: #42B3E5; }
 .pod_shapkoy .box-semi { background: #0384CE; }
@@ -50,18 +54,37 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 .dom { padding: 15px 0; }
 .dom .row { margin-top: 30px; }
 .dom__info { padding: 0; }
+.dom__info .slick-arrow { right: 56px; }
+.dom__info .slick-next { right: 28px; }
 .dom__sidebar { padding: 0 0 0 30px; }
 .dom .info { background: #E4EBF8; }
 .dom .info__video { height: 330px; overflow: hidden; padding: 0; }
 .dom .info__video iframe { width: 100%; height: auto; min-height: 100%; }
 .dom .info__txt p { font-size: 15px; padding: 20px 20px 10px 10px; }
-.dom .sidebar__li { display: block; width: 100%; cursor: pointer; font-size: 15px; padding: 10px 15px 10px 0; border-bottom: 1px solid #E0E0E0; }
+.dom .sidebar__li { display: block; width: 100%; cursor: pointer; font-size: 15px; padding: 10px 15px 10px 0; border-bottom: 1px solid #E0E0E0; position: relative; }
 .dom .sidebar__li:first-child { padding: 0 15px 10px 0; }
+.dom .sidebar__li:first-child::before { top: -7px; }
+.dom .sidebar__li::before { content: "+"; position: absolute; display: block; right: 10px; color: #4E7AC7; font-size: 25px; top: 5px; }
 .dom .sidebar .sub-sidebar { padding-left: 10px; }
 .dom .sidebar .sub-sidebar .sub__li { display: block; color: inherit; }
+.dom .active::before { content: "-"; font-size: 33px; right: 13px; margin-top: -5px; }
 .dom .condition { margin: 0 -15px; }
 .dom .condition .item__img { width: 230px; height: 172px; overflow: hidden; }
 .dom .condition .item__img-in { width: 100%; height: auto; min-height: 100%; display: block; }
-.dom .condition .item .text__title { font-weight: 700; font-size: 15px; display: block; padding: 0 0 20px 10px; }
+.dom .condition .item .text__title { font-weight: 700; font-size: 15px; display: block; padding: 20px 0 20px 25px; background: url(../img/mark.jpg) center left no-repeat; }
 .dom .condition .item .text__in { font-size: 15px; }
-.dom .data__li a { padding: 3px 10px 25px 65px; min-height: 70px; font-size: 15px; color: #000; display: block; }
+.dom .data__li { padding-bottom: 25px; }
+.dom .data__li a { padding: 3px 10px 25px 65px; min-height: 70px; font-size: 15px; color: #000; display: block; position: relative; }
+.dom .data .calendar { position: absolute; display: block; width: 55px; left: 0; top: 0; }
+.dom .data .calendar b { font-family: 'PT Sans', arial, sans-serif; background: #4E7AC7; color: #fff; font-size: 12px; text-align: center; line-height: 24px; display: block; font-weight: 400; }
+.dom .data .calendar i { border: 1px solid #E3E3E3; border-top: none; color: #424242; font-size: 25px; text-align: center; display: block; font-style: normal; line-height: 45px; }
+
+.foto-block { background: #fafafa; }
+.foto-wrap { border-radius: 2px; overflow: hidden; padding: 10px; }
+.foto img { width: 100%; height: auto; min-height: 100%; display: block; border-radius: 3px; }
+.foto__left { padding: 0; }
+.foto__left .left__img--big { height: 485px; }
+.foto__left .left__img--sm { height: 240px; float: left; width: 50%; }
+.foto__right { padding: 0; }
+.foto__right .right__img--sm { height: 240px; }
+.foto__right .right__img--big { height: 485px; }

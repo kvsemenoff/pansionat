@@ -78,10 +78,10 @@
 		<div class="row col-md-12">
 			<div class="dom__info col-md-8">
 				<span class="title">Каждому гостю индивидуальные условия</span>
-				<div class="condition">
+				<div class="condition slider-three">
 					<div class="item col-md-4">
 						<div class="item__img">
-							<img src="" alt="" class="item__img-in">
+							<img src="img/condition-1.jpg" alt="" class="item__img-in">
 						</div>
 						<div class="item__text">
 							<span class="text__title">Минимум документов</span>
@@ -90,7 +90,7 @@
 					</div>
 					<div class="item col-md-4">
 						<div class="item__img">
-							<img src="" alt="" class="item__img-in">
+							<img src="img/condition-2.jpg" alt="" class="item__img-in">
 						</div>
 						<div class="item__text">
 							<span class="text__title">От 1000 рублей в сутки</span>
@@ -99,11 +99,20 @@
 					</div>
 					<div class="item col-md-4">
 						<div class="item__img">
-							<img src="" alt="" class="item__img-in">
+							<img src="img/condition-3.jpg" alt="" class="item__img-in">
 						</div>
 						<div class="item__text">
 							<span class="text__title">Медицинский уход</span>
 							<p class="text__in">В стенах нашего пансионата комфортно чувствуют себя и постояльцы, способные передвигаться, и те, кто не может ничего сделать без посторонней помощи. </p>
+						</div>
+					</div>
+					<div class="item col-md-4">
+						<div class="item__img">
+							<img src="img/condition-2.jpg" alt="" class="item__img-in">
+						</div>
+						<div class="item__text">
+							<span class="text__title">От 1000 рублей в сутки</span>
+							<p class="text__in">Условия проживания клиента зависят от его состояния и потребностей. Стоимость проживания в пансионате для тяжело больных пожилых людей — до 1600 р. в сутки.</p>
 						</div>
 					</div>
 				</div>
@@ -111,12 +120,50 @@
 			<div class="dom__sidebar col-md-4">
 				<span class="title">Новости пансионата</span>
 				<div class="data-block">
-					<div class="data__in">
+					<div class="data__in slider-one">
 						<ul class="data">
-							<li class="data__li"><a href="#">Какие виды спорта подходят пожилым людям?</a></li>
-							<li class="data__li"><a href="#">Начаты работы по благоустройству территории</a></li>
-							<li class="data__li"><a href="#">Мы получили долгожданную лицензию на медицинскую деятельность!</a></li>
-							<li class="data__li"><a href="#">Путин подписал закон, облегчающий регистрацию по месту пребывания в пансионатах</a></li>
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+									Какие виды спорта подходят пожилым людям?
+								</a>
+							</li>
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								Начаты работы по благоустройству территории
+							</a>
+							</li>
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								Мы получили долгожданную лицензию на медицинскую деятельность!
+							</a>
+							</li>
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								Путин подписал закон, облегчающий регистрацию по месту пребывания в пансионатах
+							</a>
+							</li>
+						</ul>
+						<ul class="data">
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+									Какие виды спорта подходят пожилым людям?
+								</a>
+							</li>
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								Начаты работы по благоустройству территории
+							</a>
+							</li>
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								Мы получили долгожданную лицензию на медицинскую деятельность!
+							</a>
+							</li>
+							<li class="data__li">
+								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								Путин подписал закон, облегчающий регистрацию по месту пребывания в пансионатах
+							</a>
+							</li>
 						</ul>
 					</div>
 				</div>
