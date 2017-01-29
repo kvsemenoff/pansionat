@@ -305,6 +305,10 @@ body{
 	}
 }
 .foto{
+	padding: 0 0 15px;
+	.slider-one{
+		margin: 0 -10px;
+	}
 	&-block{
 		background: #fafafa;
 	}
@@ -341,6 +345,83 @@ body{
 		}
 	}
 }
+.doc{
+	&__li{
+		margin-bottom: 20px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+		a{
+			font-size: 15px;
+			font-weight: 700;
+			color: #424242;
+			display: block;
+			padding: 15px 68px 15px 17px;
+			transition: 0.6s all ease;
+			background: url(../img/download.jpg) center right 17px no-repeat;
+			&:hover{
+				background-color: #F8F8F8;
+			}
+			span{
+				display: block;
+				font-size: 14px;
+				font-weight: 400;
+				padding-top: 5px;
+			}
+		}
+	}
+}
+.faq{
+	&__li{
+		padding: 30px 0 30px 40px;
+		font-size: 15px;
+		position: relative;
+		border-top: 1px solid #E0E0E0;
+		color: #424242;
+		cursor: pointer;
+		&::before{
+			content: "+";
+			position: absolute;
+			width: 30px;
+			text-align: center;
+			line-height: 30px;
+			border-radius: 50%;
+			left: 0;
+			top: 25px;
+			background: #4E7AC7;
+			color: #fff;
+			font-size: 29px;
+			font-weight: 900;
+			height: 30px;
+		}
+		&.faq__active::before{
+			content: "";
+		}
+		&.faq__active::after{
+			content: "";
+			width: 13px;
+			height: 3px;
+			background: #fff;
+			position: absolute;
+			display: block;
+			left: 8px;
+			top: 39px;
+		}
+		&:last-child{
+			border-bottom: 1px solid #E0E0E0;
+		}
+		i{
+			cursor: pointer;
+			display: block;
+			font-style: normal;
+		}
+		p{
+			padding: 10px 0;
+		}
+	}
+}
+
+
 
 
 @media only screen and (min-width : 320px) {

@@ -49,6 +49,22 @@ $(document).ready(function(){
         }
     });
 
+    // ========= частые вопросы - аккордеон =======
+
+    $('.faq__sub').slideUp(0);
+    $('.faq__active > .faq__sub').slideDown(0);
+    $('.faq__li').click(function(){
+      if (!$(this).hasClass('faq__active')){
+          $('.faq__li').removeClass('faq__active');
+          $('.faq__sub').slideUp(400);
+          $(this).addClass('faq__active');
+          $('.faq__active > .faq__sub').slideDown(400)
+      } else {
+          $(this).removeClass('faq__active');
+          $('.faq__sub').slideUp(400)
+      }
+    });
+
     // ======== слайдер фото =====
     $('.slider-one').slick({
       infinite: true,
