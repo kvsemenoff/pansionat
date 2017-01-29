@@ -43,15 +43,15 @@
 				</div>
 			</div>
 			<div class="footer__underline col-md-12">
-				<div class="col-md-4 copy">2017 @ Все права защищены. <a href="#">Карта сайта</a></div>
-				<div class="col-md-4 links">
+				<div class="copy">2017 @ Все права защищены. <a href="#">Карта сайта</a></div>
+				<div class="links">
 					<a href="#" class="link link-fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					<a href="#" class="link link-tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 					<a href="#" class="link link-in">in</a>
 					<a href="#" class="link link-gplus">g+</a>
 				</div>
-				<div id="up"><a href="#top" class="up">Наверх<i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
 			</div>
 		</div>
 	</div>
 </section><!-- footer - end -->
+				<div id="up"><a href="#top" class="up">Наверх<i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>

@@ -41,6 +41,12 @@ $(document).ready(function(){
       top = $(id).offset().top;
       $('body,html').animate({scrollTop: top}, 1000);
     })
+     $("#mini-menu").on('click','a', function(event){
+      event.preventDefault();
+      var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+      $('body,html').animate({scrollTop: top}, 1000);
+    })
 
     // -----подключение якоря для footer ------
     $("#up").on('click','a', function(event){
@@ -49,6 +55,19 @@ $(document).ready(function(){
       top = $(id).offset().top;
       $('body,html').animate({scrollTop: top}, 1000);
     })
+
+    // ========= мини-меню аккордеон =======
+
+      $('.mini-menu').slideUp(0);
+      $('.nav-btn').click(function(){
+          if (!$(this).hasClass('mini-active')){
+              $('.mini-menu').slideDown(400)
+              $(this).addClass('mini-active');
+          } else {
+              $(this).removeClass('mini-active');
+              $('.mini-menu').slideUp(400)
+          }
+      });
 
     // ========= меню аккордеон =======
 
@@ -97,7 +116,21 @@ $(document).ready(function(){
       slidesToShow: 3,
       adaptiveHeight: true,
       // autoplay: true,
-      autoplaySpeed: 5000
+      autoplaySpeed: 5000,
+      responsive: [
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 470,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
     });
 
  });

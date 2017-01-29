@@ -23,10 +23,25 @@
 					<li class="menu__li"><a class="menu__link" href="#">Для клиентов</a></li>
 					<li class="menu__li"><a class="menu__link" href="#">Оформление</a></li>
 					<li class="menu__li"><a class="menu__link" href="#photo">Фотографии</a></li>
-					<li class="menu__li"><a class="menu__link" href="#review">Отывы</a></li>
+					<li class="menu__li"><a class="menu__link" href="#review">Отзывы</a></li>
 					<li class="menu__li"><a class="menu__link" href="#contact">Контакты</a></li>
 				</ul>
 			</nav>
+			<div class="mini">
+				<span class="nav-btn"></span>
+				<nav class="mini-menu" id="mini-menu">
+					<ul>
+						<li class="mini-menu__li"><a class="menu__link" href="#">Главная</a></li>
+						<li class="mini-menu__li"><a class="menu__link" href="#dom">О пансионате</a></li>
+						<li class="mini-menu__li"><a class="menu__link" href="#">Услуги</a></li>
+						<li class="mini-menu__li"><a class="menu__link" href="#">Для клиентов</a></li>
+						<li class="mini-menu__li"><a class="menu__link" href="#">Оформление</a></li>
+						<li class="mini-menu__li"><a class="menu__link" href="#photo">Фотографии</a></li>
+						<li class="mini-menu__li"><a class="menu__link" href="#review">Отзывы</a></li>
+						<li class="mini-menu__li"><a class="menu__link" href="#contact">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</div>
 </section>
