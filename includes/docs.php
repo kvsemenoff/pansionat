@@ -1,7 +1,7 @@
 <section class="section doc">
 	<div class="container">
 		<div class="row clearfix">
-			<div class="col-md-4">
+			<div class="col-md-4 docs">
 				<h2 class="title">Документы для скачивания</h2>
 				<ul class="doc__list">
 					<li class="doc__li"><a href="#">Контакты пансионата и схема проезда <span>PDF - 130 kB</span></a></li>

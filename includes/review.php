@@ -1,7 +1,7 @@
 <section class="section review">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 clearfix">
+			<div class="wrap clearfix">
 				<h2 class="title">Отзывы наших гостей</h2>
 				<div class="slider-one">
 					<div class="slide">

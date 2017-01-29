@@ -1,7 +1,7 @@
-<section class="section">
+<section class="section partner">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="wrap">
 					<h2 class="title">Наши пвртнеры</h2>
 					<div class="block clearfix">
 						<div class="partner-wrap col-md-3">

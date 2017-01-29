@@ -17,6 +17,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 
+	<script src="https://use.fontawesome.com/d1da4c9cba.js"></script>
+
 </head>
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>

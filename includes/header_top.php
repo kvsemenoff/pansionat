@@ -2,10 +2,10 @@
 	<div class="info clearfix">
 		<div class="container">
 			<div class="col-md-3 info__contact info__contact--scheme">
-				<a href="#" class="">Контакты и схема проезда</a>
+				<a href="#" class="scheme">Контакты и схема проезда</a>
 			</div>
 			<div class="col-md-3 info__contact info__contact--call">
-				<a href="#" class="">Заказать обратный звонок</a>
+				<a href="#" class=""><i class="fa fa-mobile callback" aria-hidden="true"></i>Заказать обратный звонок</a>
 			</div>
 			<div class="col-md-6 info__num">
 				<span>+7 (4872) 44-04-80</span>
@@ -14,8 +14,8 @@
 	</div>
 	<div class="container">
 		<div class="menu-line clearfix">
-			<a href="#" class="logo col-md-2"><i>Пансионат</i> для пожилых людей</a>
-			<nav class="menu col-md-10">
+			<a href="#" class="logo"><i>Пансионат</i> для пожилых людей</a>
+			<nav class="menu">
 				<ul>
 					<li class="menu__li"><a class="menu__link" href="#">Главная</a></li>
 					<li class="menu__li"><a class="menu__link" href="#">О пансионате</a></li>

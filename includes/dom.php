@@ -1,8 +1,8 @@
 <section class="section dom">
 	<div class="container clearfix">
-		<div class="row col-md-12">
+		<div class="row row-1col-md-12">
 			<div class="dom__info col-md-8">
-				<h2 class="title">Частный пансионат для пристарелых</h2>
+				<h2 class="title">Частный дом-пансионат для пристарелых</h2>
 				<div class="info clearfix">
 					<div class="info__video col-md-7">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/34Na4j8AVgA" frameborder="0" allowfullscreen></iframe>
@@ -75,7 +75,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row col-md-12">
+		<div class="row row-2 col-md-12">
 			<div class="dom__info col-md-8">
 				<span class="title">Каждому гостю индивидуальные условия</span>
 				<div class="condition slider-three">
