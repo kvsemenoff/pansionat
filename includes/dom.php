@@ -1,5 +1,5 @@
 <section class="section dom">
-	<div class="container clearfix">
+	<div class="container clearfix" id="dom">
 		<div class="row row-1col-md-12">
 			<div class="dom__info col-md-8">
 				<h2 class="title">Частный дом-пансионат для пристарелых</h2>

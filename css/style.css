@@ -11,7 +11,7 @@
 @import url(style10.css);
 * { box-sizing: border-box; outline: none; }
 
-body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%; min-width: 300px; }
+body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%; min-width: 300px; position: relative; }
 
 .clear { clear: both; }
 
@@ -27,6 +27,9 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 
 .logo { display: block; padding-left: 55px; float: left; color: #424242; font-size: 14px; width: 195px; background: url(../img/logotype.jpg) left center no-repeat; }
 .logo i { font-size: 25px; display: block; margin-bottom: -5px; }
+
+.up { font-family: 'PT Sans', arial, sans-serif; font-size: 14px; color: #fff; position: absolute; bottom: 35px; right: 0px; display: inline-block; height: 35px; }
+.up i { display: inline-block; width: 23px; line-height: 23px; border-radius: 50%; text-align: center; color: #243470; background: #fff; margin-left: 12px; }
 
 .title { display: block; background: #0074C4; color: #fff; font-size: 17px; font-family: 'PT Sans', arial, sans-serif; padding: 18px 20px 13px; font-weight: 400; margin-bottom: 30px; }
 
@@ -169,7 +172,7 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 .footer .inner-twit li a i { position: absolute; left: 10px; top: 10px; font-size: 17px; }
 .footer__list li span { display: block; font-size: 14px; font-style: italic; color: #42b3e5; }
 .footer .button-1 { width: 320px; font-size: 16px; }
-.footer__underline { padding: 24px 0 45px; margin-top: 8px; border-top: 1px solid #42518C; }
+.footer__underline { padding: 24px 0 45px; margin-top: 8px; border-top: 1px solid #42518C; position: relative; }
 .footer .copy { padding: 10px 0 0; }
 .footer .copy a { color: #fff; }
 .footer .links { padding: 0 10px; }

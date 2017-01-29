@@ -34,6 +34,22 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
+    // -----подключение якоря------
+    $("#menu").on('click','a', function(event){
+      event.preventDefault();
+      var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+      $('body,html').animate({scrollTop: top}, 1000);
+    })
+
+    // -----подключение якоря для footer ------
+    $("#up").on('click','a', function(event){
+      event.preventDefault();
+      var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+      $('body,html').animate({scrollTop: top}, 1000);
+    })
+
     // ========= меню аккордеон =======
 
     $('.sub-sidebar').slideUp(0);

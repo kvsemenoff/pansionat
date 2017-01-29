@@ -1,5 +1,5 @@
 <section class="section review">
-	<div class="container">
+	<div class="container" id="review">
 		<div class="row">
 			<div class="wrap clearfix">
 				<h2 class="title">Отзывы наших гостей</h2>

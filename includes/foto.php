@@ -1,5 +1,5 @@
 <section class="section foto">
-	<div class="container">
+	<div class="container" id="photo">
 		<div class="row clearfix">
 			<h2 class="title">Фотографии пансионата</h2>
 			<div class="slider-one">
