@@ -21,6 +21,8 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 
 .clearfix::after { clear: both; content: ""; display: table; }
 
+.section { padding: 20px 0; }
+
 .container { width: 100%; max-width: 1150px; margin: 0 auto; position: relative; height: 100%; padding: 0; }
 
 .row { padding: 0; }
@@ -104,3 +106,43 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 .faq__li:last-child { border-bottom: 1px solid #E0E0E0; }
 .faq__li i { cursor: pointer; display: block; font-style: normal; }
 .faq__li p { padding: 10px 0; }
+
+.review .slider-one { background: #EAEEF1; }
+.review__img { overflow: hidden; max-height: 450px; }
+.review__img img { width: 100%; height: auto; min-height: 100%; display: block; }
+.review__txt { background: url(../img/qua.jpg) top left no-repeat; padding: 40px 40px 55px 85px; position: relative; }
+.review__txt p { font-size: 16px; padding-bottom: 25px; }
+.review__txt span { position: absolute; display: block; bottom: 20px; left: 85px; }
+
+.about { font-size: 16px; color: #424242; }
+.about__txt p { padding-bottom: 30px; }
+.about .advantages__title { font-size: 20px; font-weight: 700; display: block; padding-bottom: 45px; }
+.about .advantages__list li { padding-left: 20px; background: url(../img/mark.jpg) -2px 0 no-repeat; padding-bottom: 20px; }
+.about .advantages__list span { display: block; font-weight: 600; padding-bottom: 5px; }
+.about .enroll { padding: 10px 0; }
+.about .enroll p { padding-bottom: 30px; }
+
+.sotr { font-size: 16px; padding: 30px 0; }
+
+.sotr img { width: 100%; height: auto; display: block; min-height: 100%; }
+
+.logo { display: block; padding: 0px 200px; min-height: 100%; width: 100%; }
+
+.sotr { font-size: 16px; padding: 30px 0; }
+.sotr .sotr img { width: 100%; height: auto; display: block; min-height: 100%; }
+
+.footer { margin: 30px 0; border: 40px 100px 20px 50px; background: #0074c4; color: #fff; font-size: 14px; }
+.footer .block { display: block; padding: 35px; font-size: 25px; color: #fff; }
+.footer .block span { display: block; }
+.footer .light { background-color: #42b3e5; }
+.footer .light span { font-size: 14px; }
+.footer .semi { background-color: #0384ce; }
+.footer .semi span { font-size: 14px; }
+.footer .dark { background-color: #3156a3; }
+.footer .dark span { font-size: 14px; }
+.footer__title { display: block; padding: 30px 10px; font-size: 17px; }
+.footer .new { font-family: 'PT Sans'; }
+.footer .new .tel { font-weight: 700; font-size: 30px; }
+.footer__list li { display: block; padding: 10px 10px 10px 20px; }
+.footer__list li span { display: block; padding: 10px; font-size: 14px; font-style: italic; color: #42b3e5; }
+.footer button { background-color: #7c9cd3; }
