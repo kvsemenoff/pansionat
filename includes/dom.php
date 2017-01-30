@@ -5,7 +5,7 @@
 				<h2 class="title">Частный дом-пансионат для пристарелых</h2>
 				<div class="info clearfix">
 					<div class="info__video col-md-7">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/34Na4j8AVgA" frameborder="0" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/3BHU1GlvJzQ" frameborder="0" allowfullscreen></iframe>
 					</div>
 					<div class="info__txt col-md-5">
 						<p>Наш частный дом престарелых гарантирует оптимальные условия проживания для людей с различными видами нарушений. В стенах пансионата с медицинским уходом комфортно чувствуют себя и постояльцы, способные самостоятельно передвигаться, и те, кто не может ничего сделать без посторонней помощи. </p>
@@ -77,7 +77,7 @@
 		</div>
 		<div class="row row-2 col-md-12">
 			<div class="dom__info col-md-8">
-				<span class="title">Каждому гостю индивидуальные условия</span>
+				<span class="title">Каждому гостю - индивидуальные условия</span>
 				<div class="condition slider-three">
 					<div class="item col-md-4">
 						<div class="item__img">
@@ -128,17 +128,17 @@
 								</a>
 							</li>
 							<li class="data__li">
-								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								<a href="#"><span class="calendar"><b>Февраль</b><i>02</i></span>
 								Начаты работы по благоустройству территории
 							</a>
 							</li>
 							<li class="data__li">
-								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								<a href="#"><span class="calendar"><b>Январь</b><i>17</i></span>
 								Мы получили долгожданную лицензию на медицинскую деятельность!
 							</a>
 							</li>
 							<li class="data__li">
-								<a href="#"><span class="calendar"><b>Февраль</b><i>23</i></span>
+								<a href="#"><span class="calendar"><b>Январь</b><i>08</i></span>
 								Путин подписал закон, облегчающий регистрацию по месту пребывания в пансионатах
 							</a>
 							</li>

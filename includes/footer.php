@@ -4,7 +4,7 @@
 			<div class="col-md-4 inner inner-addr">
 				<a href="#" class="logo"><i>Пансионат</i> для пожилых людей</a>
 				<ul class=" new footer__list">  
-					<li><i class="fa fa-map-marker fa-addr" aria-hidden="true"></i>320152, Московская область, г. Балашиха, ул.Ленина, д.90</li>
+					<li class="address"><i class="fa fa-map-marker fa-addr" aria-hidden="true"></i>320152, Московская область, г. Балашиха, ул.Ленина, д.90</li>
 					<li><i class="fa fa-envelope fa-mail" aria-hidden="true"></i>e-mail: info@dom-prestarelyh.info</li>
 					<li class="tel"><i class="fa fa-phone" aria-hidden="true"></i>+7 499 577-01-28</li>
 				</ul>

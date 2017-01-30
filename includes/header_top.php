@@ -17,7 +17,7 @@
 			<a href="#" class="logo"><i>Пансионат</i> для пожилых людей</a>
 			<nav class="menu" id="menu">
 				<ul>
-					<li class="menu__li"><a class="menu__link" href="#">Главная</a></li>
+					<li class="menu__li"><a class="menu__link active-menu" href="#">Главная</a></li>
 					<li class="menu__li"><a class="menu__link" href="#dom">О пансионате</a></li>
 					<li class="menu__li"><a class="menu__link" href="#">Услуги</a></li>
 					<li class="menu__li"><a class="menu__link" href="#">Для клиентов</a></li>
