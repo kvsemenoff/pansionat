@@ -28,7 +28,7 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 .logo { display: block; padding-left: 55px; float: left; color: #424242; font-size: 14px; width: 195px; background: url(../img/logotype.jpg) left center no-repeat; }
 .logo i { font-size: 25px; display: block; margin-bottom: -5px; }
 
-.up { font-family: 'PT Sans', arial, sans-serif; font-size: 14px; color: #fff; position: fixed; bottom: 15px; right: 0px; display: inline-block; height: 35px; }
+.up { font-family: 'PT Sans', arial, sans-serif; font-size: 14px; color: #fff; position: fixed; bottom: 15px; right: 15px; display: inline-block; height: 35px; }
 .up i { display: inline-block; width: 23px; padding: 3px 0 6px; border-radius: 50%; text-align: center; color: #243470; background: #fff; margin-left: 12px; }
 
 .title { display: block; background: #0074C4; color: #fff; font-size: 17px; font-family: 'PT Sans', arial, sans-serif; padding: 18px 70px 13px 20px; font-weight: 400; margin-bottom: 30px; }
@@ -180,6 +180,8 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 .footer__list li span { display: block; font-size: 14px; font-style: italic; color: #42b3e5; }
 .footer .button-1 { width: 320px; font-size: 16px; background: #3156A3; }
 .footer__underline { padding: 24px 0 25px; border-top: 1px solid #42518C; position: relative; }
+.footer__underline a{text-decoration: underline;}
+
 .footer .copy { padding: 10px 0 20px; width: 298px; float: left; }
 .footer .copy a { color: #fff; }
 .footer .links { padding: 0 10px; margin-left: 382px; }
@@ -329,4 +331,9 @@ body { font-family: 'Open Sans', arial, sans-serif; font-size: 16px; width: 100%
 	.dom .info__video{
 		height: auto;
 	}
+}
+
+.videoframe{
+	width: 560px;
+	height:315px;
 }
